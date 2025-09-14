@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "exercicios/013-roman-to-integer",
+        "exercicios/009-palindrome-number",
+        "exercicios/001-two-sum",
+        "exercicios/020-valid-parentheses"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "files.associations": {
+        "exercicios/**/*.java": "java"
+    },
+    "github.copilot.enable": {
+        "java": false
+    }
+}
