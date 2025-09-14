@@ -1,10 +1,13 @@
 {
     "java.project.sourcePaths": [
         "src",
+        "exercicios/121-best-time-to-buy-and-sell-stock",
+        "exercicios/020-valid-parentheses",
         "exercicios/013-roman-to-integer",
         "exercicios/009-palindrome-number",
+        "exercicios/002-remove-duplicates-from-sorted-array",
         "exercicios/001-two-sum",
-        "exercicios/020-valid-parentheses"
+        "exercicios/088-merge-sorted-array"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

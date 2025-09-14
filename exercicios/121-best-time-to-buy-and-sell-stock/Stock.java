@@ -23,8 +23,19 @@ class Solution {
         // Dica 4: Atualize minPrice se encontrar preco menor
         // Dica 5: Calcule lucro atual = preco atual - minPrice
         // Dica 6: Atualize maxProfit se lucro atual for maior
+
+        int minPrice = prices[0];
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minPrice) minPrice = prices[i];
+
+            int possibleMaxProfit = prices[i] - minPrice;
+
+            if (possibleMaxProfit > maxProfit) maxProfit = possibleMaxProfit;
+        }
         
-        return 0; // Substitua pela sua implementacao
+        return maxProfit;
     }
 }
 
