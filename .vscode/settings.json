@@ -1,8 +1,12 @@
 {
     "java.project.sourcePaths": [
-        "exercicios/996-sum-of-array",
-        "exercicios/995-array-contains",
-        "exercicios/993-find-index"
+        "exercicios/383-ransom-note",
+        "exercicios/066-plus-one",
+        "exercicios/058-length-of-last-word",
+        "exercicios/035-search-insert-position",
+        "exercicios/027-remove-element",
+        "exercicios/014-longest-common-prefix",
+        "exercicios/069-sqrt"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
